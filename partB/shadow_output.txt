@@ -1,0 +1,5 @@
+Paired rows: 200
+Mean absolute prediction difference: 9.484 min
+Prediction difference > 10 min: 70/200 (35.0%)
+Prod v1 HTTP p95: 3.436 ms
+Candidate v2 HTTP p95: 3.269 ms

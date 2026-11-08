@@ -1,0 +1,29 @@
+Default thresholds
+{'prod': {'mae': 11.9553,
+          'mae_rush': 19.679859894921194,
+          'mae_rain': 11.622736418511066,
+          'p95_ms': 0.979612848823308},
+ 'candidate': {'mae': 6.104850000000001,
+               'mae_rush': 8.579509632224168,
+               'mae_rain': 6.285311871227364,
+               'p95_ms': 0.9515093479421921},
+ 'criteria': {'overall_mae': True,
+              'latency': True,
+              'rush_mae': True,
+              'rain_mae': True},
+ 'promote': True}
+
+Minimum relative MAE gain = 60%
+{'prod': {'mae': 11.9553,
+          'mae_rush': 19.679859894921194,
+          'mae_rain': 11.622736418511066,
+          'p95_ms': 0.9779013995284913},
+ 'candidate': {'mae': 6.104850000000001,
+               'mae_rush': 8.579509632224168,
+               'mae_rain': 6.285311871227364,
+               'p95_ms': 0.965862104203552},
+ 'criteria': {'overall_mae': False,
+              'latency': True,
+              'rush_mae': True,
+              'rain_mae': True},
+ 'promote': False}

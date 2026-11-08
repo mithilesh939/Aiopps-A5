@@ -1,0 +1,5 @@
+PASS allocation: 200/1000 to v2 (20.0%)
+PASS repeat requests: 200/200 kept their arm
+PASS identical redeploy: 200/200 kept their arm
+PASS weight increase: all 200 original v2 customers stayed on v2, now 510/1000 on v2
+PASS beta override: 50/50 v1 customers received v2

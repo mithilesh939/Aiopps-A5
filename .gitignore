@@ -1,0 +1,18 @@
+# Local environments and generated artifacts
+.venv/
+venv/
+data/
+.local/
+mlruns/
+ray_results/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.db
+*.db-*
+*.sqlite*
+*.joblib
+*.zip
+*.log
+.env
+.env.*
